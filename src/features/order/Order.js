@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   increment,
-  incrementAsync,
-  selectCount,
+  incrementAsync
 } from './counterSlice'; 
 
-export function Counter() {
-  const count = useSelector(selectCount);
+export function Order() {
   const dispatch = useDispatch();
 
   return (
     <div>
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   );
 }
